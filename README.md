@@ -17,15 +17,14 @@ Visual Studio Codeの設定ファイルを格納するディレクトリ。<br>
 Visual Studio Codeの設定ファイル。個人の環境に応じて編集可。
 
 ### .gitignore
-Gitの追跡対象にしないファイル・ディレクトリを記述する。<br>
-必要に応じて追記可。<br>
-以下のファイル・ディレクトリは追跡対象としない。
+Gitの追跡対象にしないファイル・ディレクトリを記述する。必要に応じて追記可。<br>
+プロジェクトをGitで管理する場合、以下のファイル・ディレクトリは追跡対象としない。
 - `node_modules`
 - `.DS_Store`
 - `.vscode`
 
 ### .editorconfig
-[EditorConfig](https://editorconfig.org/)の設定ファイル。使用するルールについては後述。
+EditorConfigの設定ファイル。使用するルールについては後述。
 
 ### .eslintrc.json
 ESlintの設定ファイル。使用するルールについては後述。
@@ -44,7 +43,7 @@ stylelintの設定ファイル。使用するルールについては後述。
 
 ## コーディング全般
 ### 対応ブラウザ
-以下のブラウザの最新バージョン
+以下のブラウザの最新バージョンを対応ブラウザとする。
 - iOS Safari
 - Android Google Chrome
 - Safari
@@ -54,7 +53,7 @@ stylelintの設定ファイル。使用するルールについては後述。
 
 プロジェクトの要件に合わせて変更すること。
 
-### EditorConfigのルール
+### [EditorConfig](https://editorconfig.org/)のルール
 - `indent_style = tab` … インデントにタブを使用する。この選択は[WordPressのコーディング規約](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/#indentation)に依る。プロジェクトの要件に合わせて変更してもよい
 - `indent_size = 2` … インデントサイズは2とする。プロジェクトの要件に合わせて変更してもよい
 - `end_of_line = lf` … 改行コードはLFとする
@@ -90,7 +89,7 @@ stylelintの設定ファイル。使用するルールについては後述。
   - `"comma-dangle": ["error", "always"]` … trailing commasを常に付与する
   - `"no-alert": "warn"` … `alert`, `confirm`, `prompt`が使用されていたら警告する
   - `"no-console": "warn"` … `console`が使用されていたら警告する
-  - `"no-unused-vars": "warn"` … 未使用の変数を警告する
+  - `"no-unused-vars": "warn"` … 未使用の変数があれば警告する
   - `"no-var": "warn"` … `var`が使用されていたら警告する
   - `"eqeqeq": "warn"` … `==`または`!=`が使用されていたら警告する
 
