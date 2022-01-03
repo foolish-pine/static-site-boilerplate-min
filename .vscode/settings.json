@@ -3,12 +3,12 @@
     "source.fixAll.stylelint": true,
     "source.fixAll.eslint": true,
   },
+  "css.validate": false,
   "eslint.format.enable": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "css.validate": false,
   "[css]": {
     "editor.formatOnSave": true
 	},
