@@ -1,9 +1,9 @@
 .heading {
-  font-size: 24px;
-  color: red;
-  letter-spacing: 0.025em;
+	font-size: 24px;
+	color: red;
+	letter-spacing: 0.025em;
 }
 
 .heading::after {
-  content: "";
+	content: "";
 }
