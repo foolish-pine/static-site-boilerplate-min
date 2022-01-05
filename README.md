@@ -84,6 +84,16 @@ stylelintの設定ファイル。使用するルールについては後述。
 ### リンター
 - [stylelint](https://stylelint.io/)を使用する
 - ベースのルールとして[stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)を使用する
+- 以下のルールを追加する
+
+["keyframes-name-pattern": null](https://stylelint.io/user-guide/rules/list/keyframes-name-pattern/)<br>
+keyframeの命名パターンを制限しない。
+
+["selector-class-pattern": null](https://stylelint.io/user-guide/rules/list/selector-class-pattern/)<br>
+classセレクタの命名パターンを制限しない。
+
+["selector-id-pattern": null](https://stylelint.io/user-guide/rules/list/selector-id-pattern/)<br>
+idセレクタの命名パターンを制限しない。
 
 ### フォーマッター
 - [Prettier](https://prettier.io/)を使用する
