@@ -105,9 +105,6 @@ idセレクタの命名パターンを制限しない。
 - [ESLint](https://eslint.org/)を使用する
 - ベースのルールとして[eslint:recommended](https://eslint.org/docs/rules/)を使用する
 - 加えて、以下のルールを追加する。ルールの詳細は[こちら](https://eslint.org/docs/rules/)を参照すること。
-	- `"semi": ["error", "always"]` … セミコロンを常に付与する
-	- `"quotes": ["error", "double"]` … ダブルクオートを使用する
-	- `"comma-dangle": ["error", "always"]` … trailing commasを常に付与する
 	- `"no-alert": "warn"` … `alert`, `confirm`, `prompt`が使用されていたら警告する
 	- `"no-console": "warn"` … `console`が使用されていたら警告する
 	- `"no-unused-vars": "warn"` … 未使用の変数があれば警告する
