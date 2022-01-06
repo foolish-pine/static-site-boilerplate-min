@@ -86,6 +86,18 @@ stylelintの設定ファイル。使用するルールについては後述。
 - ベースのルールとして[stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)を使用する
 - 以下のルールを追加する
 
+["declaration-block-no-redundant-longhand-properties": null](https://stylelint.io/user-guide/rules/list/declaration-block-no-redundant-longhand-properties/)<br>
+プロパティのロングハンド指定を許容する。
+```
+// 以下は許容される
+a {
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+}
+```
+
 ["keyframes-name-pattern": null](https://stylelint.io/user-guide/rules/list/keyframes-name-pattern/)<br>
 keyframeの命名パターンを制限しない。
 
