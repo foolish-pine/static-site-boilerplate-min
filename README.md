@@ -91,10 +91,10 @@ stylelintの設定ファイル。使用するルールについては後述。
 ```
 // 以下は許容される
 a {
-	padding-top: 1px;
-	padding-right: 2px;
-	padding-bottom: 3px;
-	padding-left: 4px;
+  padding-top: 1px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+  padding-left: 4px;
 }
 ```
 
