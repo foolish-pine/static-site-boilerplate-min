@@ -52,16 +52,15 @@ stylelintの設定ファイル。使用するルールについては後述。
 ### README.md
 本ドキュメント。プロジェクトに応じて編集可。
 
-## Visual Studio Codeプラグイン
+## コーディングルール
+### コーディング全般
+#### Visual Studio Codeプラグイン
 以下のプラグインを使用すること。
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## コーディングルール
-### コーディング全般
 #### 対応ブラウザ
 以下のブラウザの最新バージョンを対応ブラウザとする。
 - iOS Safari
