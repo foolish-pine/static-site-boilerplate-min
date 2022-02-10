@@ -99,7 +99,7 @@ stylelintの設定ファイル。使用するルールについては後述。
 // 以下は許容されない
 a {
   color: red;
-	color: blue;
+  color: blue;
 }
 ```
 
