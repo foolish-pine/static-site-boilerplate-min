@@ -93,6 +93,16 @@ stylelintの設定ファイル。使用するルールについては後述。
 - ベースのルールとして[stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)を使用する
 - 以下のルールを追加する
 
+["declaration-block-no-duplicate-properties": true](https://stylelint.io/user-guide/rules/list/declaration-block-no-duplicate-properties/)<br>
+プロパティの重複を許容しない。
+```
+// 以下は許容されない
+a {
+  color: red;
+	color: blue;
+}
+```
+
 ["declaration-block-no-redundant-longhand-properties": null](https://stylelint.io/user-guide/rules/list/declaration-block-no-redundant-longhand-properties/)<br>
 プロパティのロングハンド指定を許容する。
 ```
