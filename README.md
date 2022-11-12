@@ -1,5 +1,5 @@
-# 静的サイトボイラープレート（HTML + CSS + JS + Prettier + stylelint + ESLint）
-- 静的サイト制作のためのボイラープレートです
+# Web制作ボイラープレート（HTML + CSS + JS + Prettier + stylelint + ESLint）
+- Web制作のためのボイラープレートです
 - Visual Studio CodeとそのプラグインおよびNode.jsを使用します
 - HTML、CSS、JavaScriptの使用を想定しています
 - 各種設定は必要に応じて変更してください
